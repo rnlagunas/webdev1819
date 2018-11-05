@@ -1,0 +1,38 @@
+body {
+    background-color: lightblue;
+}
+h1 {
+    font-family: verdana;
+    text-align: center;
+}
+button {
+    border: none;
+    background-color: lightgreen;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+}
+.button-div {
+    width: 33.33%;
+    float: left;
+}
+
+.button-frame {
+    width: 70%;
+    height: auto;
+    border: solid;
+    margin: auto;
+    display: block;
+    border-color: gray;
+}
+
+.thumbnail {
+    border: none;
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
