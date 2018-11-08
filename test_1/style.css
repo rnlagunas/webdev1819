@@ -1,0 +1,83 @@
+
+h1 {
+    color: orange;
+}
+
+body {
+    font-family: helvetica;
+}
+
+span {
+    font-weight: normal;
+    font-size: 16px;
+    text-decoration: line-through;
+}
+
+.feature {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    border: dotted;
+    border-color: green;
+    border-width: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 1em;
+}
+
+.main {
+    border: none;
+    background-color: lightblue;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px 10px;
+}
+
+em {
+    background-color: yellow;
+}
+
+.secondary {
+    background-color: transparent;
+}
+
+.noindent {
+    margin-left: 0px;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.aqua {
+    background-color: aquamarine;
+}
+
+.lemon {
+    background-color: lemon;
+}
+
+.grape {
+    background-color: purple;
+}
+
+.inline {
+    display: inline;
+}
+
+ol {
+    list-style-type: lower-latin;
+    
+}
+
+.penguin {
+    background-image: url("http://goo.gl/e2x4ZK");
+    background-repeat: no-repeat;
+    height: 196px;
+}
+
+
