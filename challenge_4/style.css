@@ -1,0 +1,37 @@
+
+
+body {
+    background-color: #EFEFEF;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: auto;
+}
+
+.jumbotron {
+    background-color: #EFEFEF;
+    margin: auto;
+}
+
+nav {
+   background-color: #000000;
+   margin: auto;
+}
+
+.secondary {
+    color: #A9A9A9;
+
+}
+
+.col-lg {
+    display: block;
+    padding: 5% 10% 0% 10%;
+    
+    
+}
+
+img {
+    display: block;
+    max-width: 20vw;
+    height: auto;
+    margin: 2% auto;
+    
+}
