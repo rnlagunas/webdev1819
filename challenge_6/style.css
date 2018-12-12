@@ -1,0 +1,30 @@
+
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+nav {
+    background-color: #622569;
+}
+
+
+.secondary {
+    color: #622569;
+}
+
+body {
+    background-color: #d6d4e0;
+}
+
+.jumbotron {
+    background-color: #b8a9c9;
+}
+
+.card {
+    background-color: #5b9aa0;
+    
+}
