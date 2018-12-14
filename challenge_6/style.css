@@ -18,6 +18,8 @@ nav {
 
 body {
     background-color: #d6d4e0;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: auto;
 }
 
 .jumbotron {
@@ -26,5 +28,14 @@ body {
 
 .card {
     background-color: #5b9aa0;
+}    
+.row {
+    margin: 20px 0px 20px 0px;
     
 }
+
+.feedback {
+    padding: 50px;
+    background-color: #b8a9c9;
+}
+
