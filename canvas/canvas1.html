@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <body>
+    <canvas id="myCanvas" width="400px" height="400px" style="border:1px solid #000000;">
+        </canvas>
+        
+        <script>
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+            var i = 0;
+            
+            setInterval(drawInitials, 50);
+            function drawInitials() {
+                ctx.clearRect(0, 0, c.width, c.height);
+                ctx.fillStyle = "darkgray";
+                ctx.fillRect(0, 0, c.width, c.height);
+
+                var grd = ctx.createLinearGradient(i, 0, i+400, 0);
+
+                    grd.addColorStop(0, "blue");
+                    grd.addColorStop(0.5, "white");
+                    grd.addColorStop(1, "blue");
+                
+                //grd.addColorStop(1+i, "white");
+
+                
+                ctx.fillStyle = grd;
+                ctx.strokeStyle = grd;
+                
+                ctx.fillRect(75, 100, 25, 200);
+                ctx.fillRect(100, 100, 25, 26);
+                ctx.fillRect(100, 174, 25, 26);
+    
+                ctx.beginPath();
+                
+                ctx.lineWidth = 25;
+                ctx.arc(125, 150, 50-13, -Math.PI/2, Math.PI/2);
+                
+                ctx.stroke();
+                
+                
+                ctx.beginPath();
+                
+                ctx.moveTo(115,180);
+                ctx.lineTo(162,295);
+                ctx.fill();
+                ctx.stroke();
+    
+                ctx.fillRect(225, 100, 25, 200);
+                ctx.fillRect(225, 275, 100, 26);
+                i+= 20;
+                if (i >= 320) {
+                    i = -250;
+                }
+                //ctx.font = "30px Arial";
+                //ctx.fillStyle = "#000000";
+                //ctx.fillText(i,70,70);
+            }
+            
+        </script>
+        
+    </body>
+</html>
+    
