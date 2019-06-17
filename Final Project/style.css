@@ -1,0 +1,20 @@
+input, button {
+    margin: 10px 0px 0px 0px;
+    width: 100%;
+    color: gray;
+    font-size: 12px;
+    padding: 5px;
+}
+
+button {
+    background-color: green; color: white;
+}
+
+a {
+    color:white;
+}
+
+footerlinks {
+    font-size: 16px;
+    text-align: left
+}
